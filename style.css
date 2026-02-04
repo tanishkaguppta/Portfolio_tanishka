@@ -1,0 +1,74 @@
+
+    /* Remove default margin & padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5; /* light background */
+      color: #333; /* dark text */
+    }
+
+    /* Header section */
+    header {
+      background-color: #4f46e5; /* purple-blue */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 18px;
+    }
+
+    /* Common section style */
+    section {
+      padding: 30px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 8px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #4f46e5;
+    }
+
+    /* Skills list */
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      background: #eef2ff;
+      display: inline-block;
+      margin: 5px;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+
+    /* Project card */
+    .project {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #111827;
+      color: white;
+      margin-top: 20px;
+    }
+  
